@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+*,
+*::before,
+*::after{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+html{scroll-behavior: smooth; }
+
+body{ background-color: rgb(255, 255, 255); }
+
+header, footer{ background: linear-gradient(to right, #000046, #1cb5e0); color: white; font-family:'montserrat'; }
+
+.nav-cabecera{ background: linear-gradient(to right, #000046, #1cb5e0);  color: white; top: 0; z-index: 1; font-family:'montserrat'; }
+
+a{text-decoration: none;
+font-size:1em;}
+
+ul,ol{list-style-type: none;}
+
+
+h1{ font-size: 2em; color: #003A52; font-family:'montserrat'; font-weight: 700;}
+h2{font-size: 2em; color: #ffffff; font-family:'montserrat'; font-weight: 500; }
+p{ font-size: 1em; font-family:'Montserrat', sans-serif; font-weight: 400;}
+
+.container{ max-width: 1200px;
+margin: 0 auto;}
+
+.principal-body{ background-color: #d4c9a4;}
+
+.marcela-img img{ width: 100%;}
+.marcela-img{ width: 50%; margin-right: auto; margin-left: auto;margin-top: -6.3%;}
+.m-g h1{ margin-top: 5%; color: white; font-family:'montserrat'; font-weight: 500;}
+
+.text-home-g{ margin-top: 7%;}
+.color-fondo-img{ background-color: #ffffff;}
+
+.libro-img img{width: 100%; margin-left: 70%; box-shadow: 0px 0px 20px 0px rgb(255, 255, 255);}
+.libro-img {width: 20%;}
+
+
+.color-franja-home{background: linear-gradient(to right, #000046, #1cb5e0); color: white;}
+
+.ti{ margin-top: 19.5%; text-align: center;}
+
+.tu{ text-align: center ;}
+
+.to{ margin-top: 20%; text-align: center;}
+.gl{background: linear-gradient(to right, #000046, #1cb5e0); }  
+
+.linea-home{ background-color: #000000; width: 50%;display: flex;margin-left: 7%;  justify-content: center;}
+
+.video-home video{width: 100%; }
+.video-home {width: 100%; }
+
+.texto-libro h2 { margin-top: 10%;}
+
+.contacto{ border: #000000 solid 2px; text-align: center; }
+
+.boton-color a{ color: white;}
+
+.col_white_amrc { color:#FFF;}
+        footer { width:100%;  background: linear-gradient(to right, #000046, #1cb5e0); min-height:250px; padding:10px 0px 25px 0px ;}
+        .pt2 { padding-top:40px ; margin-bottom:20px ;}
+        footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+        .mb10 { padding-bottom:15px ;}
+        .footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+        .footer_ul_amrc li {padding:0px 0px 5px 0px;}
+        .footer_ul_amrc li a{ color:#CCC;}
+        .footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+        .fleft { float:left;}
+        .padding-right { padding-right:10px; }
+        
+        .footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+        .footer_ul2_amrc li p { display:table; }
+        .footer_ul2_amrc li a:hover { text-decoration:none;}
+        .footer_ul2_amrc li i { margin-top:5px;}
+        
+        .bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+        .foote_bottom_ul_amrc {
+            list-style-type:none;
+            padding:0px;
+            display:table;
+            margin-top: 10px;
+            margin-right: auto;
+            margin-bottom: 10px;
+            margin-left: auto;
+        }
+        .foote_bottom_ul_amrc li { display:inline;}
+        .foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+
+
+
+        .color-lin-inf{ background: linear-gradient(to right, #000046, #1cb5e0);}
+
+
+
+
+        .text-publicacion{  margin-left: -50%; margin-top: 20%; }
+        .publicacion-texto{ margin-top: -3%; margin-left: -50%; }
+
+        .color-publicacion{ background-color: #CCC;}
+        .libros-publicacion{ box-shadow: 2px 2px 2px 2px rgb(0, 0, 0); }
+
+        .marcela-img-publicaciones img{ width: 100%; border-radius: 4%;}
+        .marcela-img-publicaciones{ width: 50%;  }
+
+
+        .banner img{width: 100%;}
+        .banner{ width: 70%; margin-left: auto; margin-right: auto;}
+
+
+.caja{ font-family:'montserrat';}
+
+.cajita{ border: 2px solid black; padding: 20px;}
+
+.text-color-evento{ color: red}
+
+        .marcela-img-infanciaypobreza img{ width: 100%;}
+        .marcela-img-infanciaypobreza { width: 70%; margin-left: 10%;}
+
+      .caja-infant{ border:#c3c3c5; }
+      .caja-infant img{width: 100%; box-shadow: 5px 5px 0px 0px rgb(83, 83, 83);margin-top: -8.5%;}
+
+
+      .subir-boton{ margin-top: -5%;}
+
+    .brg{ background: #7f9eab; height: 2px; width: 20%; }
+    .titulo{ color: #003A52; margin-top: 5%; font-family:'montserrat'; }
+    .teachin-img img{ width: 100%;}
+    .teachin-img { width: 50%;}
+
+    .img-teachin img{width: 100%;}
+    .img-teachin {width: 70%;}
+
+    .movil-video{ margin-top: 5%;}
+
+    .text-migra{font-family:'montserrat';} 
+    .color-text-migra{ color:#24246a}
+     @media (min-width: 300px) and (max-width: 500px) { 
+            .marcela-img{ width: 100%; }
+
+            .texto-home{ width: 100%;}
+
+            .texto-libro{ width: 100%;}
+
+            .libro-img{ width: 45%; } 
+
+        .formulario{width: 100%;}
+
+        .text-home-g { width: 100%;}
+
+        .nav-cabecera{ width: 100%;}
+
+        
+        .libro-img img{ margin-left: 7%;}
+        .footer{ width: 100%;}
+
+        .m-g h1 { margin-top: 10%; color: #000000;}
+
+        .img-teachin { width: 100%; }
+
+        
+        .caja-infant{width: 100%; }
+/* PUBLICACION */
+
+
+        .marcela-img-publicaciones { width: 100%;}
+
+        .caja{ width: 100%;}
+
+        .banner{ width: 90%;}
+
+.libros-publicacion { width: 100%;}
+.text-publicacion{  text-align: center; margin-left: auto;}
+.card-text{  text-align: center; margin-left: auto;}
+.publicacion-texto{  text-align: center; margin-left: auto;}
+
+.teachin-img{ width: 100%;}
+
+.caja-infant{ text-align: center;}
+.video-you iframe {width: 100%;}
+}
